@@ -37,4 +37,4 @@ if  round(a) == number and round(b) == number :
 elif round(a) == number :  
     print(str(number) +" is only a perfect square.")  
 else :
-    print(str(number)  +" is a perfect cube.")
+    print(str(number)  +" is only a perfect cube.")

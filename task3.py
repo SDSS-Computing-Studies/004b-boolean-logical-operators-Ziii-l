@@ -20,6 +20,6 @@ number=float(number)
 a= (number>=0)
 
 if number==int(number) and number>=a:
-    print(str(number)+"is a positive integer")
+    print(str(number)+"is a positive integer.")
 else:
     print(str(number)+ "is not a positive integer")

@@ -25,13 +25,10 @@ Enter another number: 25
 """
 a = int(input("please enter a number"))
 b = int(input("please enter another number"))
-if a>=b:
-    if a % b== 0 :
-        print(str(a)+" is a factor of"+ str(b))
-    else:
-        print (str(a)+" is not a factor of"+ str(b))  
+
+if a >= b and a % b== 0：
+print(str(a)+" is a factor of"+ str(b)) 
+elif a <= b and b % a ==0:
+    print(str(b)+" is a factor of"+ str(a))         
 else:
-    if b % a ==0:
-        print(str(b)+" is a factor of"+ str(a))  
-    else:
-        print(str(b)+" is not a factor of"+ str(a))  
+    print (str(a)+" is not a factor of"+ str(b)) or print(str(b)+" is not a factor of"+ str(a))  

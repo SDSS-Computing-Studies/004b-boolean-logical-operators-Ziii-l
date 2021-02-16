@@ -26,3 +26,12 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+a = int(input("please enter number a "))
+b = int(input("please enter number b "))
+c = int(input("please enter number c "))
+
+if a<b<c and a*a+b*b==c*c:
+    print(str(a)+","+str(b)+","+str(c)+" form a Pythagorean Triple")
+else:
+    print(str(a)+","+str(b)+","+str(c)+" do not form a Pythagorean Triple")
+

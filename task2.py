@@ -35,6 +35,6 @@ b= round(number ** (1 / 3)) ** 3
 if  round(a) == number and round(b) == number :  
     print(str(number) + " is both a perfect square and a perfect cube.")
 elif round(a) == number :  
-    print(str(number) +" is only a perfect square")  
+    print(str(number) +" is only a perfect square.")  
 else :
     print(str(number)  +" is a perfect cube.")

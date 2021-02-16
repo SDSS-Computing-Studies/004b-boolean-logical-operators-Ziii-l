@@ -23,12 +23,14 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
-a = int(input("please enter a number"))
-b = int(input("please enter another number"))
-
-if a >= b and a % b== 0：
-print(str(a)+" is a factor of"+ str(b)) 
-elif a <= b and b % a ==0:
-    print(str(b)+" is a factor of"+ str(a))         
+a = (input("please enter a number"))
+b = (input("please enter another number"))
+if a >= b and a % b==0:
+    print(str(b)+" is a factor of"+ str(a)) 
 else:
-    print (str(a)+" is not a factor of"+ str(b)) or print(str(b)+" is not a factor of"+ str(a))  
+    print(str(b)+" is not a factor of"+ str(a)) 
+
+if b >= a and b % a==0:
+    print(str(a)+" is a factor of"+ str(b)) 
+else:
+    print(str(a)+" is not a factor of"+ str(b)) 

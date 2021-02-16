@@ -17,7 +17,9 @@ Enter a number: -3
 """
 number = input("please enter a number")
 number=float(number)
-if round(number)==int(number) and number>0:
-    print(str(number)+"is a positive integer.")
+a= (number>=0)
+
+if number==int(number) and number>=a:
+    print(str(number)+"is a positive integer")
 else:
-    print(str(number)+"is not a positive integer")
+    print(str(number)+ "is not a positive integer")

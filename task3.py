@@ -15,3 +15,9 @@ example:
 Enter a number: -3
 -3 is not a positive integer
 """
+number = input("please enter a number")
+number=float(number)
+if round(number)==int(number) and number>0:
+    print(str(number)+"is a positive integer.")
+else:
+    print(str(number)+"is not a positive integer")

@@ -29,7 +29,7 @@ Enter a number: 8
 8 is only a perfect cube.
 """
 import math
-number = float(input("please enter a number"))
+number = int(input("please enter a number"))
 a = math.sqrt(number) ** 2
 b= round(number ** (1 / 3)) ** 3 
 if  a == number and b == number :  

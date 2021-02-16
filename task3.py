@@ -20,4 +20,4 @@ number=float(number)
 if number==int(number) and number>=0:
     print(str(number)+"is a positive integer.")
 else:
-    print(str(number)+ "is not a positive integer")
+    print(str(number)+ "is not a positive integer.")

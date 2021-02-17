@@ -26,16 +26,18 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
-a = (input("please enter number a "))
-b = (input("please enter number b "))
-c = (input("please enter number c "))
+a = input("please enter number")
+b = input("please enter number")
+c = input("please enter number")
 a=int(a)
 b=int(b)
 c=int(c)
+Pythagorean_triples = [a,b,c]
+Pythagorean_triples.sort()
 
-if a*a+b*b==c*c or a*a+c*c==b*b or b*b+c*c==a*a:
-    print(str(a)+","+str(b)+","+str(c)+" form a Pythagorean triple")
+sum_of_square = Pythagorean_triples[0] ** 2 + Pythagorean_triples[1] ** 2
+single_square = Pythagorean_triples[2] ** 2
+if sum_of_square == single_square: 
+    print(str(Pythagorean_triples[0]) + ","+ str(Pythagorean_triples[1]) +","+ str(Pythagorean_triples[2]) +" form a Pythagorean triple")
 else:
-    print(str(a)+","+str(b)+","+str(c)+" do not form a Pythagorean triple")
-
-
+    print(str(Pythagorean_triples[0]) + ","+ str(Pythagorean_triples[1]) +","+ str(Pythagorean_triples[2]) +" do not form a Pythagorean triple")

@@ -32,7 +32,8 @@ c = (input("please enter number c "))
 a=int(a)
 b=int(b)
 c=int(c)
-if a*a+b*b==c*c:
+
+if a*a+b*b==c*c or a*a+c*c==b*b or b*b+c*c==a*a:
     print(str(a)+","+str(b)+","+str(c)+" form a Pythagorean triple")
 else:
     print(str(a)+","+str(b)+","+str(c)+" do not form a Pythagorean triple")
